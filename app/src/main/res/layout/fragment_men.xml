@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:padding="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="191dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvLibelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-215dp"
+            android:layout_marginLeft="-215dp"
+            android:layout_marginTop="216dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvprix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-215dp"
+            android:layout_marginLeft="-215dp"
+            android:layout_marginTop="302dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-215dp"
+            android:layout_marginLeft="-215dp"
+            android:layout_marginTop="332dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
